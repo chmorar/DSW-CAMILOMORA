@@ -4,7 +4,7 @@
     border-radius: 2px;
 }
 header{
-    background-color: rgb(254, 254, 255);
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@ aside{
 }
 section{
     grid-column: 1/5;
-    background-color:  #ea9835;
+    background-color:  #e4ad15;
 }
 
 footer{display:table; padding-bottom:30px; width:100%;}
@@ -69,7 +69,7 @@ footer{display:table; padding-bottom:30px; width:100%;}
     list-style: none; 
     padding: 1px;
     color: rgb(9, 28, 70); 
-    background: #000000;
+    background: #004c6e;
 
 }
  
@@ -86,7 +86,7 @@ align-items: center;
 justify-content: center;
 font:100% impact;
 color: rgb(255, 255, 255);
-background:hsl(0, 0%, 0%);
+background:#004c6e;
 height: 20px;
 text-decoration: none;
 font-weight: 100%;
@@ -101,7 +101,7 @@ font-weight: 100%;
     display: block;
 }
 .menu a:hover {
-    background:#ea9835;
+    background:#e4ad15;
     color: #fff;
 
 }
