@@ -30,11 +30,22 @@ header{
 
 }
 
+
+.texto p
+{
+  font:100% arial;
+  font-weight: 0;
+  color: #fff;
+  text-align:left;
+
+
+}
 .texto {
    font:100% arial;
    font-weight: 0;
    color: #fff;
-
+   text-align: center;
+   
 
 
 }
@@ -44,7 +55,7 @@ aside{
 
 }
 section{
-    grid-column: 3/5;
+    grid-column: 1/5;
     background-color:  #e4ad15;
 }
 
