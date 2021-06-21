@@ -14,6 +14,7 @@ header{
 
 
 
+
 }
 .contenedor {
  
@@ -31,13 +32,24 @@ header{
 }
 
 
+.texto_tema1 {
+
+  font:100% arial;
+  font-weight: 0;
+  color: #fff;
+  text-align:left;
+  
+
+}
+
+
 .texto p
 {
   font:100% arial;
   font-weight: 0;
   color: #fff;
   text-align:left;
-
+  
 
 }
 .texto {
