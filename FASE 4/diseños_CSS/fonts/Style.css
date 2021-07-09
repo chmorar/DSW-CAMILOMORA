@@ -1,0 +1,136 @@
+
+*{
+    margin: 5px;
+    border-radius: 2px;
+}
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font:100% Arial Black;
+    color: #004c6e;
+}
+section{
+    grid-column: 1/5;
+    background-color:  #e4ad15;
+}
+
+footer{display:table; padding-bottom:30px; width:100%;}
+.social{margin:0px auto; display:table; display:table;}
+.social li{float:left; padding:0px 10px;}
+.social li a{color:#002e5b; transition: all 0.5s ease 0s;}
+.social li a:hover{color:#fde428; transition: all 0.5s ease 0s;
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('icomoon.eot?ic6vk4');
+    src:  url('icomoon.eot?ic6vk4#iefix') format('embedded-opentype'),
+      url('icomoon.ttf?ic6vk4') format('truetype'),
+      url('icomoon.woff?ic6vk4') format('woff'),
+      url('icomoon.svg?ic6vk4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+
+.icon-home:before {
+    content: "\e900";
+  }
+.icon-home2:before {
+    content: "\e901";
+  }
+ 
+.icon-pencil2:before {
+    content: "\e906";
+  }
+  
+.icon-user-tie::before {
+    
+  content: "\e976";
+
+}   
+.icon-book:before {
+    content: "\e91f";
+  }
+.icon-books:before {
+    content: "\e920";
+  }
+
+  
+  .icon-file-play:before {
+    content: "\e929";
+  }
+ 
+  .icon-google-plus:before {
+    content: "\ea8b";
+  }
+  .icon-google-plus2:before {
+    content: "\ea8c";
+  }
+  .icon-google-plus3:before {
+    content: "\ea8d";
+  }
+ 
+  
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  .icon-youtube2:before {
+    content: "\ea9e";
+  }
+  .icon-twitch:before {
+    content: "\ea9f";
+  }
+     
+  .icon-linkedin:before {
+    content: "\eac9";
+  }
+  .icon-linkedin2:before {
+    content: "\eaca";
+  }
+ 
+    .icon-pinterest:before {
+    content: "\ead1";
+  }
+  .icon-pinterest2:before {
+    content: "\ead2";
+  }
+ 
+ 
+  
+
