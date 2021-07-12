@@ -1,8 +1,4 @@
 
-*{
-    margin: 5px;
-    border-radius: 2px;
-}
 header{
     background-color: #ffffff;
     display: flex;
@@ -11,17 +7,44 @@ header{
     font-weight: bold;
     font:100% Arial Black;
     color: #004c6e;
-}
-section{
-    grid-column: 1/5;
-    background-color:  #e4ad15;
-}
+    
 
-footer{display:table; padding-bottom:30px; width:100%;}
-.social{margin:0px auto; display:table; display:table;}
-.social li{float:left; padding:0px 10px;}
-.social li a{color:#002e5b; transition: all 0.5s ease 0s;}
-.social li a:hover{color:#fde428; transition: all 0.5s ease 0s;
+
+  }
+
+
+ nav div {
+  font:100% Arial rgb(250, 246, 246);
+  color: rgb(255, 255, 255);
+  background: #e4ad15;
+
+ }
+
+
+ article{
+     
+     background-color:  #004c6e;
+ 
+ 
+  }
+ 
+ aside{
+    
+    background-color:  #e4ad15;
+
+
+ }
+
+footer{
+display:flex; 
+width:101%;
+height: 200%;
+justify-content: center;
+color: #004c6e;
+background-color:  #f1f0f5;}
+
+footer a {
+  color: #004c6e;
 }
 
 
@@ -80,55 +103,70 @@ footer{display:table; padding-bottom:30px; width:100%;}
   
   .icon-file-play:before {
     content: "\e929";
+    
   }
  
   .icon-google-plus:before {
     content: "\ea8b";
+    margin-left:20px;
   }
   .icon-google-plus2:before {
     content: "\ea8c";
+    margin-left:20px;
   }
   .icon-google-plus3:before {
     content: "\ea8d";
+    margin-left:20px;
   }
  
   
   .icon-facebook:before {
     content: "\ea90";
+    margin-left:20px;
   }
   .icon-facebook2:before {
     content: "\ea91";
+    margin-left:20px;
   }
   .icon-instagram:before {
     content: "\ea92";
+    margin-left:20px;
   }
   
   .icon-twitter:before {
     content: "\ea96";
+    margin-left:20px;
   }
   
   .icon-youtube:before {
     content: "\ea9d";
+    margin-left:20px;
   }
   .icon-youtube2:before {
     content: "\ea9e";
+    margin-left:20px;
   }
   .icon-twitch:before {
     content: "\ea9f";
+    margin-left:20px;
   }
      
   .icon-linkedin:before {
     content: "\eac9";
+    margin-left:20px;
   }
   .icon-linkedin2:before {
     content: "\eaca";
+    margin-left:20px;
   }
  
     .icon-pinterest:before {
     content: "\ead1";
+    margin-left:20px;
   }
   .icon-pinterest2:before {
     content: "\ead2";
+    margin-left:20px;
   }
  
  
